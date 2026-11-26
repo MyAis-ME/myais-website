@@ -1,4 +1,4 @@
-# MyAiS official website — R004
+# MyAiS official website — R005
 
 Updated 27 November 2026. Static GitHub Pages site for https://myais.ae/.
 
@@ -28,6 +28,10 @@ The MyAi Android proof gallery retains its original three screenshots. The appro
 Brand rule: always spell Ai with a lowercase i; use many Ai, different Ai or multiple Ai models instead of appending a plural s. Preserve registered product names such as Ai.S, S.Ai and MyAiS.
 
 The official MyAi tagline is "MyAi - Your Ai. Airplane Mode On." The public vision and philosophy are included on the homepage.
+
+## Image viewer
+
+All seven content screenshots and illustrations can be enlarged in a viewport-sized modal. Click the surrounding area, the close button or press Escape to return to the same place. Ordinary image links remain available if the browser does not support modal dialogs. Header and footer logos retain their normal navigation behaviour.
 
 ## Maintenance
 
