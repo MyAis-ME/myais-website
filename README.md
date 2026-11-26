@@ -22,11 +22,11 @@ It requires **no framework, npm, API keys, database, forms backend or third-part
 
 ## Business email configuration
 
-The working **public website contact remains `contact@myais.me` until an `@myais.ae` inbox is activated and tested**. To change later, edit precisely one line near the top of `script.js`:
+The founder-approved public website contact is `contact@myais.ae` (updated 27 November 2026). To change later, edit precisely one line near the top of `script.js`:
 
-`const WEBSITE_CONTACT_EMAIL = 'contact@myais.me';`
+`const WEBSITE_CONTACT_EMAIL = 'contact@myais.ae';`
 
-Change it to the verified inbox (for example `contact@myais.ae`). The script updates the email address and both `mailto:` buttons together. To also update the email displayed without JavaScript, replace the three hardcoded fallback `contact@myais.me` occurrences in `index.html` after verifying the new email. Do not publish an address until Microsoft 365 send/receive works.
+Change it to the verified inbox (for example `contact@myais.ae`). The script updates the email address and both `mailto:` buttons together. To also update the email displayed without JavaScript, replace the all hardcoded fallback `contact@myais.ae` occurrences in `index.html` after verifying the new email. Do not publish an address until Microsoft 365 send/receive works.
 
 GitHub Pages uses website DNS records (A/AAAA/CNAME); Microsoft 365 email uses MX, TXT and other verification records. Add mail DNS without deleting the website records.
 
