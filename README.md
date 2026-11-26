@@ -33,6 +33,8 @@ The official MyAi tagline is "MyAi - Your Ai. Airplane Mode On." The public visi
 
 All seven content screenshots and illustrations can be enlarged in a viewport-sized modal. Click the surrounding area, the close button or press Escape to return to the same place. Ordinary image links remain available if the browser does not support modal dialogs. Header and footer logos retain their normal navigation behaviour.
 
+The standard context menu is disabled throughout the page, including the image viewer. This discourages casual copying but is not copy protection; public assets remain accessible.
+
 ## Maintenance
 
 Use a separate branch, verify links, responsive layout and contact configuration, then merge to main. The Git history preserves the previous releases. SHA256SUMS.txt records release-file checksums (not an exhaustive inventory of all historical repository assets).
