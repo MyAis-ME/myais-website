@@ -1,3 +1,11 @@
+# MyAiS website revision R005 — 2026-11-27
+
+- Add a responsive, keyboard-accessible lightbox to all seven content images, with outside-click and Escape dismissal.
+- Suppress the standard browser context menu across the website, including the lightbox.
+- Preserve original assets, page position, product copy, contact and domain configuration.
+
+---
+
 # MyAiS website revision R004 — 2026-11-27
 
 - Apply consistent Ai branding and remove plural-s wording throughout the website, including metadata and rendered labels.
