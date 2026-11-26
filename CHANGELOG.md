@@ -1,3 +1,12 @@
+# MyAiS website revision R004 — 2026-11-27
+
+- Apply consistent Ai branding and remove plural-s wording throughout the website, including metadata and rendered labels.
+- Restore the complete original MyAiS triangle in the header and footer; correct the copyright line.
+- Add the founder's vision and philosophy, and clarify MyAi's hardware-aware accessibility.
+- Redesign the OSI section around the approved artwork without publishing private research details. Artwork requires the original PNG in assets/osi-research-artwork.png.
+
+---
+
 # MyAiS website revision R003 — 2026-11-27
 
 - Correct MyAi's official tagline.
