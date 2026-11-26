@@ -28,3 +28,40 @@ if (menu && nav) {
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
   window.addEventListener('resize', () => { if (window.innerWidth > 920) setOpen(false); });
 }
+
+/* R005 — accessible modal image viewer; ordinary image links remain as fallback. */
+function installImageViewer(){
+  const viewer = document.querySelector('#image-viewer');
+  if (!viewer || typeof viewer.showModal !== 'function') return;
+  const picture = viewer.querySelector('.image-viewer-picture');
+  const close = viewer.querySelector('.image-viewer-close');
+  let opener = null;
+  for (const link of document.querySelectorAll('a.image-enlarge')) {
+    const thumb = link.querySelector('img');
+    if (!thumb) continue;
+    link.setAttribute('aria-haspopup','dialog');
+    link.setAttribute('aria-label','Enlarge image: ' + thumb.alt);
+    link.addEventListener('click', (event) => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || viewer.open) return;
+      picture.alt = thumb.alt;
+      picture.src = link.href;
+      opener = link;
+      try { viewer.showModal(); } catch (_) { opener = null; picture.removeAttribute('src'); return; }
+      event.preventDefault();
+      document.documentElement.classList.add('image-viewer-open');
+      close.focus({preventScroll:true});
+    });
+  }
+  close.addEventListener('click', () => viewer.close());
+  viewer.addEventListener('click', (event) => {
+    if (event.target === viewer) viewer.close();
+  });
+  viewer.addEventListener('close', () => {
+    document.documentElement.classList.remove('image-viewer-open');
+    picture.removeAttribute('src');
+    picture.alt = '';
+    if (opener) opener.focus({preventScroll:true});
+    opener = null;
+  });
+}
+installImageViewer();
