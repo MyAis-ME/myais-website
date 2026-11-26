@@ -1,4 +1,4 @@
-# MyAiS official website — R002
+# MyAiS official website — R003
 
 Updated 27 November 2026. Static GitHub Pages site for https://myais.ae/.
 
@@ -20,6 +20,10 @@ Founder-approved address: contact@myais.ae. The JavaScript configuration and all
 - OSI is introduced only as exploratory research. Detailed research methods, architecture, private investment terms and confidential material are excluded.
 - Actual S.Ai and former MyAiS Mobile screenshots are retained; the future headquarters image remains labelled as a concept.
 - Brand philosophy: Yes to Ai. But Human First.
+
+## R003 artwork
+
+The MyAi Android proof gallery is ordered 01, 02, 03. It and the OSI emblem appear when the original assets are present: assets/myai-offline-01.jpg, assets/myai-offline-02.jpg, assets/myai-offline-03.png, and assets/osi-logo.png. Missing images remain hidden. The official MyAi tagline is "MyAi - Your Ai. Airplane Mode On." Section 07 distinguishes operational software from ongoing integration and commercial deployment.
 
 ## Maintenance
 
