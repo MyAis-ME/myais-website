@@ -1,4 +1,4 @@
-# MyAiS official website — R003
+# MyAiS official website — R004
 
 Updated 27 November 2026. Static GitHub Pages site for https://myais.ae/.
 
@@ -21,9 +21,13 @@ Founder-approved address: contact@myais.ae. The JavaScript configuration and all
 - Actual S.Ai and former MyAiS Mobile screenshots are retained; the future headquarters image remains labelled as a concept.
 - Brand philosophy: Yes to Ai. But Human First.
 
-## R003 artwork
+## R004 artwork and branding
 
-The MyAi Android proof gallery is ordered 01, 02, 03. It and the OSI emblem appear when the original assets are present: assets/myai-offline-01.jpg, assets/myai-offline-02.jpg, assets/myai-offline-03.png, and assets/osi-logo.png. Missing images remain hidden. The official MyAi tagline is "MyAi - Your Ai. Airplane Mode On." Section 07 distinguishes operational software from ongoing integration and commercial deployment.
+The MyAi Android proof gallery retains its original three screenshots. The approved OSI research artwork is displayed from assets/osi-research-artwork.png when present; the official OSI logo remains in the assets folder. The header and footer use the full triangle from the official MyAiS logo.
+
+Brand rule: always spell Ai with a lowercase i; use many Ai, different Ai or multiple Ai models instead of appending a plural s. Preserve registered product names such as Ai.S, S.Ai and MyAiS.
+
+The official MyAi tagline is "MyAi - Your Ai. Airplane Mode On." The public vision and philosophy are included on the homepage.
 
 ## Maintenance
 
