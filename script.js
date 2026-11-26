@@ -1,6 +1,6 @@
 'use strict';
 // WEBSITE CONFIGURATION: change only this address when Microsoft 365 mail for myais.ae is ready.
-const WEBSITE_CONTACT_EMAIL = 'contact@myais.me';
+const WEBSITE_CONTACT_EMAIL = 'contact@myais.ae';
 
 // Contact destinations derive from one configuration value. No backend or tracking required.
 for (const el of document.querySelectorAll('.email-address')) {
