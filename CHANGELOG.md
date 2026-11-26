@@ -1,3 +1,14 @@
+# MyAiS website revision R002 — 2026-11-27
+
+- Refresh the founding story and suite positioning.
+- Rename MyAiS Mobile to S.Ai Mobile; retain the original screenshot with historical branding identified.
+- Introduce standalone MyAi Mobile and its demonstrated on-device document creation.
+- Clarify the complete suite licence, WorkConv, ongoing integration and future application/service direction.
+- Introduce OSI at a public, non-technical research-vision level.
+- Retain responsive design, existing assets, contact@myais.ae and domain configuration.
+
+---
+
 # MyAiS website revision R001 — 2026-10-13
 
 - Replaces outdated three-role / Studio-RAG representation with actual **Ai.S, S.Ai, MyAiS Mobile** experiences.
