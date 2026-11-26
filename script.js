@@ -65,3 +65,6 @@ function installImageViewer(){
   });
 }
 installImageViewer();
+
+/* Site-wide suppression of the normal browser context menu. */
+document.addEventListener('contextmenu', (event) => event.preventDefault(), {capture:true});
