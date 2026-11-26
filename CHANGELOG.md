@@ -1,3 +1,11 @@
+# MyAiS website revision R003 — 2026-11-27
+
+- Correct MyAi's official tagline.
+- Recognise existing operational software in section 07; distinguish integration and commercial deployment.
+- Add responsive, ordered real-device screenshot gallery and OSI emblem placement. Original image assets require a separate upload.
+
+---
+
 # MyAiS website revision R002 — 2026-11-27
 
 - Refresh the founding story and suite positioning.
